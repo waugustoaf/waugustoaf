@@ -25,7 +25,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About Me
 
-HI THERE! I'm Walther, 17 years old, emancipated, Systems Development Technician student at CEFET-MG Timóteo from Brazil and I love technologie, communities, classes and everything in-between. I'm passionate to create new projects and helping another developers as much as possible.
+HI THERE! I'm (Walther) AUGUSTO, 17 years old, emancipated, Systems Development Technician student at CEFET-MG Timóteo from Brazil and I love technologie, communities, classes and everything in-between. I'm passionate to create new projects and helping another developers as much as possible.
 
 More about me:
 * 📚 I'm a Systems Development Technical Course student at CEFET-MG, Brazil
