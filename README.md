@@ -9,7 +9,7 @@
 <br />
 <p align="center">
 
-  <h3 align="center">Walther Augusto Fernandes</h3>
+  <h3 align="center">[Walther] Augusto Fernandes</h3>
 
   <p align="center">
     waugustoaf
