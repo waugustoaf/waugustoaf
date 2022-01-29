@@ -29,7 +29,6 @@ HI THERE! I'm (Walther) AUGUSTO, Systems Development student at CEFET-MG from Br
 
 More about me:
 * 📚 I'm a Systems Development Technical Course student at CEFET-MG, Brazil
-* 💻 I'm currently looking for job opportunities
 * 🎵 Passionate amateur musician
 * ⭐ You can ask about anything [here](https://github.com/waugustoaf/waugustoaf/issues)
 
