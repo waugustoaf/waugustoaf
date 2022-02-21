@@ -53,4 +53,4 @@ More about me:
 [email-shield]: https://img.shields.io/badge/-Email-red.svg?style=for-the-badge&logo=gmail&color=6600ff
 [email-url]: mailto:waltheraaf@gmail.com
  
-![Snake animation](https://github.com/waugustoaf/waugustoaf/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://raw.githubusercontent.com/waugustoaf/waugustoaf/output/github-contribution-grid-snake.svg)
