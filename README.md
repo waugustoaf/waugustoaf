@@ -14,7 +14,7 @@
   <p align="center">
     waugustoaf
     <br />
-    Front-end Developer
+    FullStack Developer
     <br />
     <a href="https://github.com/waugustoaf"><strong>GitHub profile »</strong></a>
     <br />
