@@ -1,51 +1,38 @@
-name: main
+name: GitHub Snake Game
 
 on:
   schedule:
-    - cron: "0 */24 * * *" 
-    
+    - cron: "0 0 * * *"
+
   workflow_dispatch:
-  
+
   push:
     branches:
-    - main
+      - main
 
 jobs:
-  test-action-svg-only:
+  generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v3
-        with:
-          cache: 'npm'
-          node-version: 20
-          cache-dependency-path: subdir/package-lock.json
-      - run: npm i --frozen-lockfile
+      - name: Checkout Repository
+        uses: actions/checkout@v3
 
-      - name: build svg-only action
-        run: |
-          npm run build:action
-          rm -r svg-only/dist
-          mv packages/action/dist svg-only/dist
-
-      - name: generate-snake-game-from-github-contribution-grid
-        id: generate-snake
-        uses: ./svg-only
+      - name: Generate GitHub Contributions Snake Animations
+        uses: Platane/snk@v3
         with:
-          github_user_name: waugustoaf
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - name: ensure the generated file exists
-        run: |
-          ls dist
-          test -f dist/github-contribution-grid-snake.svg
-          test -f dist/github-contribution-grid-snake-dark.svg
-
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output-svg-only
-          build_dir: dist
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Deploy to Output Branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
+          commit_message: "Update snake animation [skip ci]"
