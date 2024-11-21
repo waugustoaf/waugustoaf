@@ -52,5 +52,18 @@ More about me:
 [instagram-url]: https://www.instagram.com/waltherfernandes/
 [email-shield]: https://img.shields.io/badge/-Email-red.svg?style=for-the-badge&logo=gmail&color=6600ff
 [email-url]: mailto:waltheraaf@gmail.com
- 
-![Snake animation](https://raw.githubusercontent.com/waugustoaf/waugustoaf/output/github-contribution-grid-snake.svg)
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://github.com/waugustoaf/waugustoaf/blob/output/github-snake-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://github.com/waugustoaf/waugustoaf/blob/output/github-snake.svg"
+  />
+  <img
+    alt="github contribution grid snake animation"
+    src="https://github.com/waugustoaf/waugustoaf/blob/output/github-snake.svg"
+  />
+</picture>
