@@ -28,7 +28,7 @@
 HI THERE! I'm (Walther) AUGUSTO, Systems Development student at CEFET-MG from Brazil and I love technology, communities, classes and everything in-between. I'm passionate to create new projects and helping another developers as much as possible.
 
 More about me:
-* 📚 I'm a Systems Development Technical Course student at CEFET-MG, Brazil
+* 📚 I'm a Software Developer at Natura&CO, Brazil
 * 🎵 Passionate amateur musician
 * ⭐ You can ask about anything [here](https://github.com/waugustoaf/waugustoaf/issues)
 
