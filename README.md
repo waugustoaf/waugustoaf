@@ -1,4 +1,4 @@
-<img src="./images/banner.png" />
+<img src="https://github.com/waugustoaf/waugustoaf/blob/main/images/banner.png?raw=true" />
 
 [![Linkedin][linkedin-shield]][linkedin-url]
 [![Instagram][instagram-shield]][instagram-url]
